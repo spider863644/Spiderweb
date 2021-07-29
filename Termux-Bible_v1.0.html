@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body   {background-color:RGB(0, 0, 0)
+}
+h1      {font-family:courier;
+          color:green;
+         font-size:150%;
+         text-align:center;
+         border: 3px solid orange;
+}
+h2    {background-color:red;
+       font-family:courier;
+       font-size:150%;
+       text-align:center;
+       border:  2px solid orange
+}
+p      {color:HSL(100, 100%, 50%)
+}
+h3      {color:black;
+        background-color:White;
+        border: 12px solid navy
+}
+</style>
+</head>
+<meta name="viewport"
+content="width=device-width,
+initial-scale=1.0">
+<title>TERMUX TOOLS AND COMMAND</title>
+<body>
+<pre>
+<h1>TERMUX BIBLE 📖👼</h1>
+<p><b>----------------------------------------------
+----------------------------------------------</b></p>
+<img src="/storage/emulated/0/WhatsApp/Media/WhatsApp Images/IMG-20210628-WA0007.jpg"
+width="350"
+height="350">
+
+
+<h3>TABLE CONTENT
+<a href="#C1">200 Tools</a>
+<a  href="#C2">A-RAT EXPLOIT</a>
+<a  href="#C3">APACHE2-HTTP SERVER</a>
+<a href="#C4">AUTOPIXIE-WPS</a>
+<a href="#C5">BLACKEYE</a>
+<a href="#C6">BREACHER</a>
+<a href="#C7">BRUTAL</a>
+<a href="#C8">BRUTESPRAY</a>
+<a href="#C9">CHECK LOGIN MAILS</a>
+<a href="#C10">CHECK URL</a>
+<a href="#C11">CMSEE SUIT</a>
+<a href="#C12">COMMIX</a>
+<a href="#C13">CRIP IP TOOLS</a>
+<a href="#C14">CYBER SCAN</a></h3>
+<h2 id="C1">200 TOOLS</h2>
+<p>$ apt update && apt upgrade -y
+
+$ apt install git
+
+$ apt install php
+
+$ apt install curl
+
+$ apt install ruby
+
+$ apt install figlet
+
+$ apt install python2
+
+$ gem install lolcat
+
+$ git clone https://github.com/TUANB4DUT/
+TOOLSINSTALLERv3
+
+$ cd TOOLSINSTALLERv3
+
+$ chmod +x TUANB4DUT.sh
+
+$ sh TUANB4DUT.sh</p><hr>
+<hr>
+<h2 id="C2">A-RAT EXPLOIT</h2>
+<p>A-Rat = Remote access tool
+
+we can generate python based rat
+
+installation :
+
+$ apt update 
+
+$ apt upgrade
+
+$ apt install git
+
+$ apt install python2
+
+$ apt install python
+
+$ git clone https://github.com/Xi4u7/
+A-Rat
+
+$ cd A-Rat
+
+$ chmod +x *
+
+usage :
+
+$ python2 A-Rat.py
+
+$ help
+
+$ set host 127.0.0.1 [your ip]
+
+$ set port 1337
+
+$ set output /$HOME/rat.py
+
+$ generate
+
+It generates rat.py in termux home
+ directory
+
+Open termux new session 
+
+type $ ls
+
+here you get that rat.py 
+
+go to again A-Rat means privious
+ session of termux
+
+Type run to start exploit.
+
+$ run
+
+and then open new session and run rat 
+like this
+
+$ python rat.py
+
+and come back to A-Rat session 
+
+Now its connected to that rat. means 
+Hacked.
+
+press control + c to stop.</p><hr>
+<hr>
+<h2 id="C3">APACHE2-HTTP SERVER</h2>
+<p>First update and upgrate Termux .
+
+$ apt update
+
+$ apt upgrade
+
+Now install apache2 
+
+$ apt install apache2
+
+apache2 path =
+
+/data/data/com.termux/files/usr/share/apache2/
+default-site/htdocs/
+
+for Example i have a file read.txt now you must
+ move this file to 
+apache2 path then type this command : 
+
+$ mv read.txt /data/data/com.termux/files/usr/share/apache2/default-site/htdocs/
+
+Now start apache2 service with this command : 
+
+$ apachectl
+
+Now opn browser and type : 
+
+localhost:8080
+
+It shows IT WORKS !
+
+Now access read.txt file with browser then type this command: 
+
+localhost:8080/read.txt 
+
+If you want to stop apache2 service then close termux application it will stop.
+
+That's it.</p><hr>
+<hr>
+<h2 id="C4">AUTOPIXIE-WPS</h2>
+<p>Autopixie-WPS = this script is meant for people
+
+who wants to check if someone can gain the wpa key, 
+
+and or if you are protected from this attack Any illegal 
+
+use of this program is strictly forbidden!.
+
+FEATURES 
+
+Kill reaver as soon as e-hash2 is gained.
+
+Manual input target router without scan
+
+Wash scan > target router from scan list
+
+Save resuslts to logfile
+
+option to ignore router from wash scan if it has been cracked, 
+
+or if PixieWps failed to crack the hash
+
+remember you must have an ecternal wifi adpter 
+
+Installation :
+
+$ apt update && apt upgrade
+
+$ apt install git 
+
+$ apt install python2
+
+$ apt install python
+
+$ pip2 install requests
+
+$ git clone https://github.com/nxxxu/AutoPixieWps
+
+$ cd AutoPixieWps
+
+$ chmod +x *
+
+Run :
+
+$ python2 autopixie.py
+
+Now select any option it will guide you..</p><hr>
+<hr>
+<h2 id="C5">BLACKEYE</h2>
+<p>The most complete Phishing Tool, with 32 templates +1 customizable
+
+Installation :
+
+$ apt update && apt upgrade
+
+$ apt install git
+
+$ apt install curl
+
+$ git clone https://github.com/thelinuxchoice/blackeye
+
+$ cd blackeye
+
+$ chmod +x *
+
+
+
+
+
+
+Run :
+
+$ bash blackeye.sh
+
+Now select your option it will generate an url for phishing..</p><hr>
+<hr>
+<h2 id="C6">BREACHER</h2>
+<p>An advanced multithreaded admin panel finder written in pythonA 
+script to find admin login pages and EAR vulnerabilites.
+Features 
+
+1.Multi-threading on demand
+
+2.Big path list (482 paths)
+
+3.Supports php, asp and html extensions
+
+4.Checks for potential EAR vulnerabilites
+
+5.Checks for robots.txt
+
+6.Support for custom patns
+Installation :
+
+$ apt update && apt upgrade
+
+$ apt install git 
+
+$ apt install python2
+
+$ apt install python
+
+$ git clone https://github.com/s0md3v/Breacher
+
+$ cd Breacher
+Run :
+
+$ python2 breacher.py
+Check all paths without threads
+
+$ python2 breacher -u example.com</p><hr>
+<hr>
+<h2 id="C7">BRUTAL</h2>
+<p>Brutal = this is a toolkit to quickly create various payload, 
+
+powershell attack, virus attack.and launch listener 
+
+for a human interface devices..this is extreamly useful 
+
+for executing scripts on a target machin..
+
+For use this tool you must install sudo in your termux
+
+means it need rooted devices..
+
+Installation :
+
+$ apt update && apt upgrade
+
+$ apt install git 
+
+$ git clone https://github.com/Screetsec/Brutal
+
+$ cd Brutal
+
+$ chmod +x *
+
+Run :
+
+$ sudo ./Brutal.sh
+
+Now simply select your option which you want..</p><hr>
+<hr>
+<h2 id="C8">BRUTESPRAY</h2>
+<p>BruteSpray takes nmap GNMAP/XML output and 
+
+automatically brute-forces services with default credentials using Medusa.
+
+BruteSpray can even find non-standard ports by 
+
+using the -sV inside Nmap.
+
+Installation :
+
+$ apt update 
+
+$ apt upgrade
+
+$ apt install git
+
+$ apt install python2
+
+$ git clone https://github.com/x90skysn3k/brutespray
+
+$ cd brutespray
+
+$ pip2 install -r requirements.txt
+
+usage :
+
+$ python2 brutespray.py
+
+First do an nmap scan with 
+
+-oG nmap.gnmap or -oX nmap.xml.
+
+$ python2 brutespray.py -h
+
+$ python brutespray.py --file nmap.gnmap
+
+$ python brutesrpay.py --file nmap.xml
+
+$ python brutespray.py --file nmap.xml -i</p><hr>
+<h2  id="C9">CHECK LOGIN MAILS</h2>
+<p>Credmap is an open source tool that was created to 
+
+bring awareness to the dangers of credential reuse.
+
+It is capable of testing supplied user credentials 
+
+on several known websites to test if the password 
+
+has been reused on any of these
+
+Installation :
+
+$ apt update && apt upgrade
+
+$ apt install git 
+
+$ apt install python2
+
+$ apt install python
+
+$ git clone https://github.com/lightos/credmap
+
+$ cd credmap
+
+$ chmod +x *
+
+usage :
+
+$ $ python2 credmap.py -h
+
+It shows all options to use this tool
+
+$ python2 credmap.py --username king --email king56@email.com
+
+king = is username of email
+
+king56@email.com = this is email to check</p><hr>
+<hr>
+<h2 id="C10">CHECK URL</h2>
+<p>Check url = Detect evil urls that uses IDN Homograph Attack.
+
+Installation :
+
+$ apt update && apt upgrade
+
+$ apt install git 
+
+$ apt install python2
+
+$ apt install python
+
+$ git clone https://github.com/UndeadSec/checkURL
+
+$ cd checkURL
+
+$ chmod +x *
+
+usage :
+
+Now run with python3 type this command :
+
+$ python3 checkURL.py --help
+
+It shows all options..
+
+$ python3 checkURL.py --url [attackerurl]
+
+attacker url = attacker url tom check this is idn evil url or original url</p><hr>
+<hr>
+<h2 id="C11">CM SEE SUIT</h2>
+<p>CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and 100 other CMSs
+
+Functions Of CMSeek :
+
+Basic CMS Detection of over 80 CMS
+Drupal version detection
+Advanced Wordpress Scans
+Detects Version
+User Enumeration
+Plugins Enumeration
+Theme Enumeration
+Detects Users (3 Detection Methods)
+Looks for Version Vulnerabilities and much more!
+Advanced Joomla Scans
+Version detection
+Backup files finder
+Admin page finder
+Core vulnerability detection
+Directory listing check
+Config leak detection
+Various other checks
+Modular bruteforce system
+Use pre made bruteforce modules or create your own and integrate with it
+
+Installation :
+
+$ apt update && apt upgrade
+
+$ apt install git 
+
+$ apt install python2
+
+$ apt install python
+
+$ git clone https://github.com/Tuhinshubhra/CMSeeK
+
+$ cd CMSeeK
+
+$ chmod +x *
+
+Run : 
+
+$ python cmseek.py 
+
+here select your oprion and use..</p><hr>
+<hr>
+<h2 id="C12">COMMIX</h2>
+<p>Automated All-in-One OS command injection and exploitation tool
+
+can be used from web developers, penetration testers or even security 
+
+researchers in order to test web-based applications 
+
+with the view to find bugs, errors or vulnerabilities 
+
+related to command injection attacks. 
+
+Installation :
+
+$ apt update && apt upgrade
+
+$ apt install git 
+
+$ apt install python2
+
+$ git clone https://github.com/commixproject/commix
+
+$ cd commix
+
+$ chmod +x *
+
+usage :
+
+$ python2 commix.py
+
+Now it shows how you can use this too..
+
+$ python2 commix.py -h 
+
+it shows all options...
+
+$ python2 commix.py -u site.com
+
+it shows all information....</p><hr>
+<hr>
+<h2 id="C13">CRIP IP TOOLS</h2>
+<p>This Tools is a collection of online IP Tools that<br> can be used to quickly get information about IP Address's, Web Pages and DNS records.
+
+Menu :
+
+Whois lookup
+Traceroute
+DNS Lookup
+Reverse DNS Lookup
+GeoIP Lookup
+Port Scan
+Reverse IP Lookup
+
+Installation :
+
+$ apt update && apt upgrade
+
+$ apt install git 
+
+$ apt install python2
+
+$ apt install python
+
+$ git clone https://github.com/Manisso/Crips
+
+$ cd Crips
+
+$ chmod +x *
+
+$ ./install.sh
+
+Run :
+
+$ python2 crips.py
+
+Now select your option, this tool can guide you easily..</p><hr>
+<hr>
+<h2 id="C14">CYBER SCAN</h2>
+<p>CyberScan is an open source penetration testing tool 
+
+that can analyse packets , decoding , scanning ports, 
+
+pinging and geolocation of an IP including
+
+(latitude, longitude , region , country ...)
+
+Installation :
+
+$ apt update && apt upgrade
+
+$ apt install git 
+
+$ apt install python2
+
+$ apt install python
+
+$ git clone https://github.com/medbenali/CyberScan.git
+
+$ cd CyberScan
+
+usage :
+
+$ python2 CyberScan.py -v
+
+$ CyberScan -h
+
+We can perform ping operations with several protocols using CyberScan
+
+The fastest way to discover hosts on a local Ethernet network
+
+is to use ARP:
+
+$ python2 CyberScan -s 192.168.1.0/24 -p arp
+
+In case when ICMP echo requests are blocked, we can still use TCP:
+
+$ CyberScan -s 192.168.1.105 -p tcp -d 80
+
+192.168.1.105 = target IP.</p><hr>
+<p style="text-align:right;"><b>More tools coming</b></p>
+</pre>
+</body>
+</html>

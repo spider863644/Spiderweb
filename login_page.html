@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="eng-us">
+<title>Login To Join ATCS</title>
+<meta name="viewport"
+content="width=device-width,
+initial-scale=1.0">
+<head>
+<style>
+body {background-color:grey;
+}
+h1 {background-color:white;
+    font-size:25px;
+    font-family:courier;
+    color:black;
+}
+p   {font-size:20px;
+}
+a:link {background-color:green;
+        color:white;
+        padding:15px 25px;
+        text-decoration:none;
+        display:inline-block;
+}
+visited {color:white;
+}
+  </style>
+  </head>
+  <body>
+<center><h1>Login to ATCS</h1></center>
+<form action="home.html">
+<fieldset>
+<legend>Fill the form</legend>
+<label for="email">Enter email address:</label><br>
+<input type="email" id="email" name="email" placeholder="example@gmail.com" required><br><br>
+<label for="password">password:</label><br>
+<input type="password" id="password" name="password" placeholder="******" required><br><br>
+<label for="verification">Type <strong>Yz30A</strong> to prove you are not a robot:</label>
+<input type="text" id="verification" name="verification" pattern="[Y]{1}[z]{1}[3]{1}[0]{1}[A]{1}" required><br><br>
+<input type="submit" value="login">
+</fieldset>
+</form>
+<center><a href="/storage/emulated/0/signup_page.html">Create new account</a></center><br><br>
+<center><a href="/storage/emulated/0/findmyaccount.html"
+style="background-color:blue;">Find my account</a></center>
+</head>
+</body>
+</html>
